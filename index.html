@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>cosmetology</title>
 </head>
+
 <body>
     <!-- navigation including logo -->
     <nav class="navbar">
@@ -23,67 +25,94 @@
         <div class="hero__intro">
             <p class="section__description">Witajcie w salonie piękności Phenomenon</p>
             <h2 class="section__title">Sanktuarium fenomenalnej pielęgnacji</h2>
-            <p class="section__description">Miejsce, gdzie relaks i profesjonalna pielęgnacja idą w parze. Oferujemy szeroki wachlarz usług, od zabiegów na twarz i ciało, przez stylizację włosów, aż po manicure i pedicure. Dzięki doświadczonym specjalistom i używaniu wysokiej jakości kosmetyków, zapewniamy naszym klientom wyjątkowy komfort oraz widoczne efekty. </p>
+            <p class="section__description">Miejsce, gdzie relaks i profesjonalna pielęgnacja idą w parze. Oferujemy
+                szeroki wachlarz usług, od zabiegów na twarz i ciało, przez stylizację włosów, aż po manicure i
+                pedicure. Dzięki doświadczonym specjalistom i używaniu wysokiej jakości kosmetyków, zapewniamy naszym
+                klientom wyjątkowy komfort oraz widoczne efekty. </p>
             <button class="section__cta">Nasze usługi</button>
         </div>
         <div class="hero__image__container ">
             <img class="hero__image" src="./assets/hero.jpeg" alt="kosmetyczka na tle salonu">
         </div>
-        
+
     </section>
 
     <!-- services section -->
-    <section class="container">
+    <section class="container services__section">
         <div class="services">
-            <h2 class="section__title"></h2>
-            <p class="section__description"></p>
-            <div class="service"><img src="" alt=""><button class="section__cta"></button></div>
-            <div class="service"><img src="" alt=""><button class="section__cta"></button></div>
-            <div class="service"><img src="" alt=""><button class="section__cta"></button></div>
+            <h2 class="section__title">Nasza oferta</h2>
+            <p class="section__description">Naszym celem jest, aby każda wizyta była dla Ciebie chwilą relaksu,
+                przyjemności i regeneracji, a efekty naszych zabiegów dodawały pewności siebie i podkreślały Twoje
+                naturalne piękno.</p>
+            <div class="services__box">
+                <div class="service">
+                    <img class="service__image" src="./assets/twarz.jpeg" alt="">
+                    <button class="section__cta">zabiegi na twarz</button>
+                </div>
+                <div class="service">
+                    <img class="service__image" src="./assets/usta.jpeg" alt="">
+                    <button class="section__cta">korekcja ust</button>
+                </div>
+                <div class="service">
+                    <img class="service__image" src="./assets/ciało.jpeg" alt="">
+                    <button class="section__cta">pełne spa</button>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- about section -->
-    <section class="container">
+    <section class="container about__section">
         <div class="about">
-            <img src="" alt="">
-            <div>
-                <h2 class="section__title"></h2>
-                <p class="section__description"></p>
-                <p class="section__description"></p>
+            <div class="about__image__container">
+                <img class="about__image" src="./assets/salon.jpeg" alt="">
+            </div>
+            <div class="about__section__container">
+                <h2 class="section__title">Miejsce w którym elegancja spotyka piękno</h2>
+                <p class="section__description">Nasi doświadczeni specjaliści zawsze dostosowują zabiegi do Twoich potrzeb. Z nami poczujesz się wyjątkowo, a każdy zabieg jest dostosowany do Twojego typu skóry i oczekiwań.</p>
+                <p class="section__description" style="margin-top: 2rem;">W naszym salonie odpoczniesz od codziennego stresu i zregenerujesz siły. Stawiamy na innowacyjność, oferując najnowsze rozwiązania w kosmetyce.</p>
             </div>
         </div>
     </section>
 
     <!-- contact section -->
-    <section class="container">
+    <section class="container contact__container">
         <div class="contact">
-            <h2 class="section__title"></h2>
-            <p class="section__description"></p>
-            <div class="contact__container">
-                <form class="contact__form" action="">
-                    <input class="contact__input" type="text">
-                    <input class="contact__input" type="text">
-                    <input class="contact__input" type="text">
-                    <button class="section__cta"></button>
-                </form>
-                <img src="" alt="">
+            <div class="contact__intro">
+                <h2 class="section__title">Zarezerwuj swoją wizytę już teraz</h2>
+                <p class="section__description">
+                    Przekonaj się, jak łatwo można poczuć się pięknie i wyjątkowo. Czekamy na Ciebie!
+                </p>
+            </div>
+            <div class="contact__showcase">
+                <div class="contact__form__container">
+                    <form class="contact__form" action="">
+                        <input class="contact__input" type="text" placeholder="Imię...">
+                        <input class="contact__input" type="text" placeholder="Email...">
+                        <input class="contact__input" type="text" placeholder="Wiadomość...">
+                        <button class="section__cta">Skontaktuj się z nami</button>
+                    </form>
+                </div>
+                <div class="contact__image__container">
+                    <img class="contact__image" src="./assets/masaz.jpeg" alt="">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- footer & social media section -->
-     <footer class="foot">
+    <footer class="foot">
         <!-- social media -->
         <div class="foot__social">
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+            <a href=""><img class="social__icon" src="./assets/facebook.png" alt=""></a>
+            <a href=""><img class="social__icon" src="./assets/instagram.png" alt=""></a>
+            <a href=""><img class="social__icon" src="./assets/tiktok.png" alt=""></a>
+            <a href=""><img class="social__icon" src="./assets/linkedin.png" alt=""></a>
         </div>
 
         <!-- small nav -->
         <div class="foot__nav">
+            <h3 class="foot__title">Phenomenon</h3>
             <ul class="foot__nav__list">
                 <li class="foot__nav__list__item">domowa</li>
                 <li class="foot__nav__list__item">o nas</li>
@@ -91,6 +120,7 @@
                 <li class="foot__nav__list__item">kontakt</li>
             </ul>
         </div>
-     </footer>
+    </footer>
 </body>
+
 </html>
